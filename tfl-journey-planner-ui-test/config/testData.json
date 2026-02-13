@@ -1,0 +1,18 @@
+{
+    "journeyRoute":{
+        "from": "Leicester Square Underground Station",
+        "to":  "Covent Garden Underground Station",
+        "fromInput": "Leicester Square",
+        "toInput":  "Covent Garden",
+        "invalidTo": "**"
+    },
+    "routes":{
+        "routeWithLeastWalking":  "Routes with least walking",
+        "routeWithFastestChanges": "Routes with fewest changes"
+    },
+    "validationMessages":{
+      "invalidToStationInput": "sorry, we can't find a journey matching your criteria",
+      "toFieldError": "The To field is required.",
+      "fromFieldError": "The From field is required."
+    } 
+}
