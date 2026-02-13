@@ -51,8 +51,9 @@ npm install
 
 2. Configure environment variables:
 ```bash
-# Copy example env file
-cp .env.example .env
+# Copy example env file  #Note change only `test` to the correct 
+cp .env.example .env     #words
+
 
 # Update with your credentials and settings
 ```
