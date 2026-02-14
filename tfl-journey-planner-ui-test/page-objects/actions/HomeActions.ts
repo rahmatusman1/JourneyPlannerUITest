@@ -8,10 +8,6 @@ export class HomeActions extends BaseClass<HomePageLocators> {
     super(page, locators);
   }
 
-async goto(): Promise<void> {
-    await super.goToURL('/plan-a-journey');
-  }
-
 async acceptCookies(): Promise<void>{
    const cookieButton = this.locators.acceptCookies; 
    await cookieButton.isVisible();

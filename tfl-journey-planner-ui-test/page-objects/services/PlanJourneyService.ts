@@ -11,7 +11,6 @@ constructor(page: Page){
 }
 
 async planJourney(): Promise<void>{
-await this.homeActions.goToURL();
 await this.homeActions.clickPlanAJourneyTab();
 await this.homeActions.selectFromStationOption(testData.journeyRoute.fromInput,testData.journeyRoute.from);
 await this.homeActions.selectToStationOption(testData.journeyRoute.toInput,testData.journeyRoute.to);
