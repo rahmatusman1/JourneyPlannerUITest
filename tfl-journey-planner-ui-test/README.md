@@ -2,17 +2,8 @@
 
 A Playwright-based test automation framework for the journey planner application.
 
-## Project Setup
-1.	Installed VS Code.
-2.	Create a project folder and opened it in VS Code.
-3.	Open the file at the project root level in terminal
-3.	Installed Playwright and its dependencies
-4.	Installed Node.js and configured the system environment variables to ensure    accessibility across all local projects
-5. Installed Allure report 
-
-
 ## Tools Used--
-- PlayWright BDD with Typescript, Allure report, Nodejs, Visual studio code.
+- PlayWright with Typescript, Allure report, Nodejs, Visual studio code.
 
 ## Project Structure & Breakdown
 1.Tests Folder
@@ -42,38 +33,22 @@ Displays a summary of passed/failed tests with detailed error logs.
 
 
 
-## Installations
+## Project Setup & Installations
 
 1. Install dependencies:
 ```bash
 npm install
 ```
-
-2. Configure environment variables:
-```bash
-# Copy example env file  #Note change only `test` to the correct 
-cp .env.example .env     #words
-
-
-# Update with your credentials and settings
-```
-3. Install Playwright
+2. Install Playwright
 ```bash
 npx playwright install
 ```
-4. Install Allure Report
-```bash
-npm install -g allure-commandline --save-dev
-```
-5. Download Nodejs at official website 
-https://nodejs.org/  
-
 
 ## Running Tests
 
 ```bash
-# Run all tests     #Note using `npm test` would delete all test reporting and 
-  npm test          # screenshots due to scripts configured see package.json scripts
+# Run tests #Note using `npm test` delete all test reports
+npm test          
 
 # Run specific test file
 npx playwright test tests/journey-planner-test.spec.ts

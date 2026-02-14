@@ -1,6 +1,3 @@
-# Environment variables
-.env
-
 # Playwright
 node_modules/
 /test-results/
