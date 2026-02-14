@@ -32,16 +32,15 @@ A dedicated test runner file to execute tests and allure reporting for test repo
 Displays a summary of passed/failed tests with detailed error logs.
 
 
-
 ## Project Setup & Installations
-
-1. Install dependencies:
+1.	Installed VS Code or Open existing if already installed.
+2.	Create a folder on your local 
+3.  Clone the code from the repository into your created local folder 
+4.  Open VS Code-> Click on File -> Click on Open Folder-> Select the local folder.
+5.	Open the file directory in terminal e.g C:\desiredlocation\JourneyPlannerUITest\tfl-journey-planner-ui-test
+6.  Install dependencies: 
 ```bash
 npm install
-```
-2. Install Playwright
-```bash
-npx playwright install
 ```
 
 ## Running Tests
@@ -84,5 +83,3 @@ npm run report:open
 # Clean up test artifacts
 npm run clean
 ```
-
-
